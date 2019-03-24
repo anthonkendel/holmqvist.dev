@@ -1,17 +1,10 @@
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 // vue.config.js
 module.exports = {
-  outputDir: 'build',
+  outputDir: 'public',
   chainWebpack(config) {
-    config
-      .plugin('copy')
-      .tap(args => {
-        console.log('copy')
-        return args.map(arg => {
-          arg.from = './static/';
-          return arg;
-        });
-      });
-
     config
       .plugin('html')
       .tap(args => {
@@ -21,4 +14,16 @@ module.exports = {
         });
       });
   },
-}
+  configureWebpack: {
+    plugins: [
+      new CopyWebpackPlugin(
+        [{
+          from: './static',
+          to: './',
+          toType: 'dir',
+          ignore: ['.DS_Store'],
+        }],
+      ),
+    ],
+  },
+};

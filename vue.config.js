@@ -4,9 +4,11 @@ module.exports = {
   chainWebpack(config) {
     config
       .plugin('copy')
-      .tap((args) => {
+      .tap(args => {
+        console.log('copy')
         return args.map(arg => {
-          arg.from = './static/'
+          arg.from = './static/';
+          return arg;
         });
       });
 
@@ -14,7 +16,8 @@ module.exports = {
       .plugin('html')
       .tap(args => {
         return args.map(arg => {
-          arg.template = './static/index.html'
+          arg.template = './static/index.html';
+          return arg;
         });
       });
   },

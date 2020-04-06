@@ -12,18 +12,19 @@
     "test": "npm run eslint && npm run prettier:check"
   },
   "dependencies": {
+    "core-js": "^3.6.4",
     "vue": "^2.6.6"
   },
   "devDependencies": {
     "@arbetsmyra/prettier-config": "^1.0.0",
-    "@vue/cli-plugin-babel": "^3.5.0",
-    "@vue/cli-plugin-typescript": "^3.5.0",
-    "@vue/cli-service": "^3.5.0",
+    "@vue/cli-plugin-babel": "^4.3.0",
+    "@vue/cli-plugin-typescript": "^4.3.0",
+    "@vue/cli-service": "^4.3.0",
     "node-sass": "^4.9.0",
     "prettier": "^2.0.4",
-    "sass-loader": "^7.1.0",
-    "typescript": "^3.2.1",
-    "vue-template-compiler": "^2.5.21"
+    "sass-loader": "^8.0.2",
+    "typescript": "~3.8.3",
+    "vue-template-compiler": "^2.6.6"
   },
   "prettier": "@arbetsmyra/prettier-config",
   "postcss": {

@@ -1,7 +1,11 @@
-const CopyWebpackPlugin = require('copy-webpack-plugin');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-
 // vue.config.js
 module.exports = {
   outputDir: 'docs',
+  css: {
+    loaderOptions: {
+      sass: {
+        implementation: require('dart-sass'),
+      },
+    },
+  },
 };

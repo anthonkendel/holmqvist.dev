@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "core-js": "3.6.4",
-    "vue": "2.6.10"
+    "vue": "2.6.11"
   },
   "devDependencies": {
     "@arbetsmyra/prettier-config": "1.0.0",
@@ -24,7 +24,7 @@
     "prettier": "2.0.4",
     "sass-loader": "8.0.2",
     "typescript": "3.8.3",
-    "vue-template-compiler": "2.6.10"
+    "vue-template-compiler": "2.6.11"
   },
   "prettier": "@arbetsmyra/prettier-config",
   "postcss": {

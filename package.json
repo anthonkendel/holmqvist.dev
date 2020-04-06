@@ -5,20 +5,27 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write .",
+    "eslint": "vue-cli-service lint",
+    "eslint:fix": "vue-cli-service lint --fix",
+    "test": "npm run eslint && npm run prettier:check"
   },
   "dependencies": {
     "vue": "^2.6.6"
   },
   "devDependencies": {
+    "@arbetsmyra/prettier-config": "^1.0.0",
     "@vue/cli-plugin-babel": "^3.5.0",
     "@vue/cli-plugin-typescript": "^3.5.0",
     "@vue/cli-service": "^3.5.0",
     "node-sass": "^4.9.0",
+    "prettier": "^2.0.4",
     "sass-loader": "^7.1.0",
     "typescript": "^3.2.1",
     "vue-template-compiler": "^2.5.21"
   },
+  "prettier": "@arbetsmyra/prettier-config",
   "postcss": {
     "plugins": {
       "autoprefixer": {}

@@ -22,7 +22,8 @@
             <a
               href="https://docs.google.com/document/d/1m8nfTFDbluF8VG5mvKUJTYu6yYE4OsElFEdRZfmrGIY/edit?usp=sharing"
               target="_blank"
-            >Resume</a>
+              >Resume</a
+            >
           </div>
         </div>
         <div class="row">
@@ -60,12 +61,12 @@ export default Vue.extend({
 <style lang="scss">
 @font-face {
   font-family: Moon;
-  src: url("./assets/fonts/moon/MoonLight.otf") format("opentype");
+  src: url('./assets/fonts/moon/MoonLight.otf') format('opentype');
 }
 
 @font-face {
   font-family: Moon;
-  src: url("./assets/fonts/moon/MoonBold.otf") format("opentype");
+  src: url('./assets/fonts/moon/MoonBold.otf') format('opentype');
   font-weight: bold;
 }
 

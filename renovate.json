@@ -4,7 +4,7 @@
     {
       "automerge": true,
       "automergeType": "branch",
-      "updateTypes": ["minor", "patch", "pin", "digest"]
+      "depTypeList": ["devDependencies"]
     }
   ]
 }

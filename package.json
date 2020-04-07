@@ -16,7 +16,7 @@
     "vue": "2.6.11"
   },
   "devDependencies": {
-    "@arbetsmyra/prettier-config": "1.0.0",
+    "@arbetsmyra/prettier-config": "1.0.3",
     "@vue/cli-plugin-babel": "4.3.0",
     "@vue/cli-plugin-typescript": "4.3.0",
     "@vue/cli-service": "4.3.0",

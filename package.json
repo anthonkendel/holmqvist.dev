@@ -21,7 +21,7 @@
     "@vue/cli-plugin-typescript": "4.3.1",
     "@vue/cli-service": "4.3.1",
     "dart-sass": "1.25.0",
-    "prettier": "2.0.4",
+    "prettier": "2.0.5",
     "sass-loader": "8.0.2",
     "typescript": "3.8.3",
     "vue-template-compiler": "2.6.11"

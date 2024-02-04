@@ -1,1 +1,0 @@
-# Anthon Kendel Holmqvist
